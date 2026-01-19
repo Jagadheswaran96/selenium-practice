@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17">
+		<attributes>
+			<attribute name="module" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/activation.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/activation-1.1.1.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/bson-3.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-codec-1.9.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-codec-1.13.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-compress-1.20.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-io-2.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-lang3-3.12.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/extentreports-3.1.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/freemarker-2.3.23.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/gson-2.8.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/gson-2.8.6.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpclient-4.5.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpclient5-5.0.3.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore-4.4.4.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-5.0.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-h2-5.0.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpmime-4.5.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jackson-annotations-2.18.3.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jackson-core-2.18.3.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jackson-databind-2.18.3.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jackson-databind-3.0.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jarchivelib-1.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/javax.mail.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/json_simple.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jsoup-1.9.2.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/jsoup-1.13.1.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/mail.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/mongodb-driver-3.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/mongodb-driver-core-3.3.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-server-standalone-2.53.1.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/slf4j-api-1.7.30.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/webdrivermanager-4.4.3.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
