@@ -16,7 +16,7 @@ public class MenuDropDowns {
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		WebElement menu = driver.findElement(By.xpath("//span[text()='Courses Offered']"));
 		Actions actions = new Actions(driver);
 		actions.moveToElement(menu).perform();

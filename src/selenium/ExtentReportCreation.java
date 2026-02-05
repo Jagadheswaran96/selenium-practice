@@ -34,20 +34,20 @@ public class ExtentReportCreation {
 		extentReports.attachReporter(extentHtmlReporter);
 		WebDriverManager.chromedriver().setup();
 		driver = new ChromeDriver();
-	}	
+	}
 	  @Test public void openBing() throws IOException {
 	  extentTest=extentReports.createTest("Verify bing");
-	  driver.get("https://www.bing.com/"); 
-	  String actual = "Bing"; 
-	  String expected = "Bing"; 
-	  assertEquals(actual, expected); 
+	  driver.get("https://www.bing.com/");
+	  String actual = "Bing";
+	  String expected = "Bing";
+	  assertEquals(actual, expected);
 	  extentTest.pass("Pass");
-	  TakesScreenshot screenshot= (TakesScreenshot) driver; 
-	  File srcFile=screenshot.getScreenshotAs(OutputType.FILE); 
-	  File file=new File("bing.png"); 
+	  TakesScreenshot screenshot= (TakesScreenshot) driver;
+	  File srcFile=screenshot.getScreenshotAs(OutputType.FILE);
+	  File file=new File("bing.png");
 	  FileUtils.copyFile(srcFile, file);
 	  extentTest.addScreenCaptureFromPath("bing.png");
-	  }	 
+	  }
 	@Test
 	public void openGoogle() throws IOException {
 		extentTest = extentReports.createTest("Verify google");

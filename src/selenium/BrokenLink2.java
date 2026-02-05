@@ -29,8 +29,9 @@ public class BrokenLink2 {
 			httpURLConnection.connect();
 			if (httpURLConnection.getResponseCode()==200) {
 				System.out.println(href+httpURLConnection.getResponseCode()+httpURLConnection.getResponseMessage());
-			}else
+			} else {
 				System.err.println(href+httpURLConnection.getResponseCode()+httpURLConnection.getResponseMessage());
+			}
 		}
 	}
 

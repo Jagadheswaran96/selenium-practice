@@ -16,7 +16,7 @@ public class iFrames {
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/frames/frames.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(5000));
-		
+
 		driver.switchTo().frame(1);
 		driver.switchTo().frame("secondframe");
 		//driver.switchTo().frame(arg0)
@@ -28,7 +28,7 @@ public class iFrames {
 		//driver.switchTo().parentFrame();
 		driver.switchTo().frame(2);
 		driver.findElement(By.name("check")).click();
-		
+
 	}
 
 }

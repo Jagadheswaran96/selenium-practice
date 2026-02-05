@@ -1,7 +1,6 @@
 package selenium;
 
 import java.time.Duration;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
@@ -19,7 +18,7 @@ public class OpenOrangeHRM {
 			driver.get("https://opensource-demo.orangehrmlive.com/web/index.php/auth/login");
 			driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 			driver.findElement(By.name("username")).sendKeys("Admin");
-			driver.findElement(By.name("password")).sendKeys("admin123");	
+			driver.findElement(By.name("password")).sendKeys("admin123");
 			driver.findElement(By.xpath("//div[@class=\"oxd-form-actions orangehrm-login-action\"]")).click();
 			boolean status = driver.findElement(By.xpath("//p[text()='Quick Launch']")).isDisplayed();
 			Assert.assertTrue(status);

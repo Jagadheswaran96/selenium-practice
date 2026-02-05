@@ -6,7 +6,7 @@ import org.apache.log4j.PropertyConfigurator;
 public class Log4jUsingFileAppender {
 
 	public static void main(String[] args) {
-		
+
 		Logger logger=Logger.getLogger(Log4jUsingFileAppender.class);
 		//PropertyConfigurator.configure("Log4j.properties");
 		PropertyConfigurator.configure("Log4j.properties");

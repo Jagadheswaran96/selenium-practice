@@ -1,6 +1,5 @@
 package selenium;
 
-import java.util.Iterator;
 import java.util.Set;
 
 import org.openqa.selenium.WebDriver;
@@ -8,7 +7,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 
 import io.github.bonigarcia.wdm.WebDriverManager;
 
-public class WindowHandle { 
+public class WindowHandle {
 	public static void main(String[] args) throws Exception {
 
 
@@ -22,11 +21,7 @@ public class WindowHandle {
 		// It will return the parent window name as a String
 		String parent=driver.getWindowHandle();
 		Set<String>s=driver.getWindowHandles();
-		// Now iterate using Iterator
-		Iterator<String> I1= s.iterator();
-		while(I1.hasNext())
-		{
-			String child_window=I1.next();
+		for (String child_window : s) {
 			if(!parent.equals(child_window))
 			{
 				driver.switchTo().window(child_window);

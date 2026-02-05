@@ -18,7 +18,7 @@ public class MenuDropDowns2 {
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		WebElement Branches = driver.findElement(By.xpath("//span[text()='Branches']"));
 		WebElement Marathahalli = driver.findElement(By.xpath("//span[text()='Marathahalli']"));
 		WebElement in_Marathahalli = driver.findElement(By.xpath("//a[contains(text(),'Selenium-Training-in-Marathahalli')]"));

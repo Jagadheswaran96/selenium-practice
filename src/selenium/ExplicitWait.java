@@ -60,15 +60,15 @@ public class ExplicitWait {
 /*
  * WebDriverWait wait = new WebDriverWait(driver,30);
    wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//div[contains(text(),'COMPOSE')]")));
- * fluent wait //Declare and initialise a fluent wait 
- * FluentWait wait = new FluentWait(driver); 
- * //Specify the timout of the wait 
- * wait.withTimeout(Duration.ofSeconds(10)); 
- * //Sepcify polling time 
- * wait.pollingEvery(Duration.ofSeconds(1)); 
+ * fluent wait //Declare and initialise a fluent wait
+ * FluentWait wait = new FluentWait(driver);
+ * //Specify the timout of the wait
+ * wait.withTimeout(Duration.ofSeconds(10));
+ * //Sepcify polling time
+ * wait.pollingEvery(Duration.ofSeconds(1));
  * //Specify what exceptions to ignore
  * wait.ignoring(NoSuchElementException.class)
- * 
- * //This is how we specify the condition to wait on. 
+ *
+ * //This is how we specify the condition to wait on.
  * //This is what we will explore more in this chapter wait.until(ExpectedConditions.alertIsPresent());
  */

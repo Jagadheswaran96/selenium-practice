@@ -1,7 +1,7 @@
 package selenium;
 
 public class XpathAxes {
-	
+
 	/* XPath axes are used to navigate through elements in an XML or HTML document relative to the current node. Here is a list of all XPath axes along with their usages:
 
 		1. Ancestor

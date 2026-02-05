@@ -9,7 +9,7 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 public class Maximize {
 
 	public static void main(String[] args) {
-		
+
 		System.setProperty("webdriver.chrome.driver", "F:\\Eclipse\\chromedriver.exe");
 
 		//3rd way using ChromeOptions by creating an object for that only working with Chrome browser
@@ -18,7 +18,7 @@ public class Maximize {
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver(chromeOptions);
 		driver.get("https://google.com");
-		
+
 		//1st way using maximize() method
 		/*driver.manage().window().maximize();
 		driver.get("https://google.com");*/

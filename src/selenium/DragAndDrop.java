@@ -15,10 +15,10 @@ public class DragAndDrop {
 		driver.manage().window().maximize();
 		driver.get("http://www.dhtmlgoodies.com/submitted-scripts/i-google-like-drag-drop/index.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10000));
-		
+
 		WebElement element1 = driver.findElement(By.xpath("//h1[contains(text(),'Block 1')]"));
 		WebElement element2 = driver.findElement(By.xpath("//h1[contains(text(),'Block 4')]"));
-		
+
 		Actions actions = new Actions(driver);
 		actions.dragAndDrop(element1, element2).perform();
 	}

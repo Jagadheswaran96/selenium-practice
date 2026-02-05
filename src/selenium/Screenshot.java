@@ -8,6 +8,7 @@ import java.awt.image.BufferedImage;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+
 import javax.imageio.ImageIO;
 
 import org.apache.commons.io.FileUtils;
@@ -26,28 +27,28 @@ public class Screenshot {
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		//two ways to take screenshot
 		//1.using takes screenshot
 		//2.robot class
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
 		File file = screenshot.getScreenshotAs(OutputType.FILE);
-		
+
 		// two ways to copy file
 		//1.using file class of java
 		//2. using file handler of Selenium
-		File file2 = new File("C:\\Users\\Jagadhez\\OneDrive\\Desktop\\screenshot.png");
+		File file2 = new File("Screenshot Using TakesScreenshot Interface.png");
 		FileUtils.copyFile(file, file2);
-		
+
 		try {
 			Robot robot=new Robot();
 			Dimension screenSize=Toolkit.getDefaultToolkit().getScreenSize();
 			Rectangle rectangle=new Rectangle(screenSize);
 			BufferedImage screenShot=robot.createScreenCapture(rectangle);
-			File file3=new File("C:\\Users\\Jagadhez\\OneDrive\\Desktop\\SCREENSHOT.png");
+			File file3=new File("Screenshot Using Robot Class.png");
 			ImageIO.write(screenShot, "png", file3);
 		} catch (Exception e) {
-			
+
 		}
 		driver.quit();
 	}

@@ -34,16 +34,17 @@ public class BrokenLink {
 				httpURLConnection.setConnectTimeout(3000);
 				httpURLConnection.connect();
 				if (httpURLConnection.getResponseCode()==200) {
-					System.out.println(href + "-" + "it is valid link" + "-" + httpURLConnection.getResponseCode() 
+					System.out.println(href + "-" + "it is valid link" + "-" + httpURLConnection.getResponseCode()
 					+ "-" + httpURLConnection.getResponseMessage());
-				}else
-					System.err.println(href + "-" + "it is invalid link" + "-" + httpURLConnection.getResponseCode() 
+				} else {
+					System.err.println(href + "-" + "it is invalid link" + "-" + httpURLConnection.getResponseCode()
 					+ "-" + httpURLConnection.getResponseMessage());
+				}
 			} catch (MalformedURLException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
 			}
-			
+
 		}
 	}
 }

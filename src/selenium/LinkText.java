@@ -37,7 +37,7 @@ public class LinkText {
 		System.out.println(threadCount);
 		Thread.sleep(2000);
 		driver.quit();
-		
+
 	}
 
 }

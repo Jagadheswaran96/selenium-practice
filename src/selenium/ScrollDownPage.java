@@ -13,7 +13,7 @@ public class ScrollDownPage {
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
-		
+
 		JavascriptExecutor javascriptExecutor = (JavascriptExecutor) driver;
 		javascriptExecutor.executeScript("window.scrollBy(0,1000)", "");
 		javascriptExecutor.executeScript("window.scrollBy(0,1000)", "");

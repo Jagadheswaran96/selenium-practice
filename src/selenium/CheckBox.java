@@ -17,10 +17,10 @@ public class CheckBox {
 		WebDriver driver=new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/learn.html");
-		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));		
+		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		List<WebElement> Allcheckbox=driver.findElements(By.xpath("//input[@type='checkbox']"));
 		int size=Allcheckbox.size();
-		
+
 		for (int i = 0; i < size; i++) {
 			WebElement check=Allcheckbox.get(i);
 			check.click();
@@ -28,7 +28,7 @@ public class CheckBox {
 				System.out.println("true");
 			}
 		}
-		
+
 		//driver.quit();
 
 	}

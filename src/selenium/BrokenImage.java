@@ -1,6 +1,7 @@
 package selenium;
 
 import java.time.Duration;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -23,7 +24,7 @@ public class BrokenImage {
 			System.out.println("this is not broken image");
 		}
 		driver.quit();
-		
+
 	}
 
 }

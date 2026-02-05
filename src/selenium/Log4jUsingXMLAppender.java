@@ -4,9 +4,9 @@ import org.apache.log4j.Logger;
 import org.apache.log4j.xml.DOMConfigurator;
 
 public class Log4jUsingXMLAppender {
-	
+
 	static Logger logger = Logger.getLogger(Log4jUsingXMLAppender.class);
-	
+
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		//PropertyConfigurator.configure("Log4j.properties");

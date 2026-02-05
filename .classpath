@@ -18,11 +18,6 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/freemarker-2.3.23.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/gson-2.8.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/gson-2.8.6.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpclient-4.5.2.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpclient5-5.0.3.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore-4.4.4.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-5.0.2.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-h2-5.0.2.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpmime-4.5.2.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/jarchivelib-1.1.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/javax.mail.jar"/>
@@ -31,7 +26,6 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/mail.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/mongodb-driver-3.3.0.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/mongodb-driver-core-3.3.0.jar"/>
-	<classpathentry kind="lib" path="F:/Eclipse/Jars/webdrivermanager-4.4.3.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-java-4.35.0/auto-service-annotations-1.1.1.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-java-4.35.0/auto-service-annotations-1.1.1-sources.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/selenium-java-4.35.0/byte-buddy-1.17.6.jar"/>
@@ -184,5 +178,10 @@
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/slf4j-api-2.0.15.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/slf4j-simple-2.0.15.jar"/>
 	<classpathentry kind="lib" path="F:/Eclipse/Jars/log4j-1.2.17.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/webdrivermanager-6.1.0.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpclient5-5.4.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-5.4.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/httpcore5-h2-5.4.jar"/>
+	<classpathentry kind="lib" path="F:/Eclipse/Jars/dec-0.1.2.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
