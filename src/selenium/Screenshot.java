@@ -32,24 +32,25 @@ public class Screenshot {
 		//1.using takes screenshot
 		//2.robot class
 		TakesScreenshot screenshot = (TakesScreenshot) driver;
-		File file = screenshot.getScreenshotAs(OutputType.FILE);
+		File screenshotFile = screenshot.getScreenshotAs(OutputType.FILE);
 
 		// two ways to copy file
 		//1.using file class of java
 		//2. using file handler of Selenium
-		File file2 = new File("Screenshot Using TakesScreenshot Interface.png");
-		FileUtils.copyFile(file, file2);
+		File fileName = new File("Screenshot Using TakesScreenshot Interface.png");
+		FileUtils.copyFile(screenshotFile, fileName);
 
 		try {
-			Robot robot=new Robot();
-			Dimension screenSize=Toolkit.getDefaultToolkit().getScreenSize();
-			Rectangle rectangle=new Rectangle(screenSize);
-			BufferedImage screenShot=robot.createScreenCapture(rectangle);
-			File file3=new File("Screenshot Using Robot Class.png");
-			ImageIO.write(screenShot, "png", file3);
+			Robot robot = new Robot();
+			Dimension screenSize = Toolkit.getDefaultToolkit().getScreenSize();
+			Rectangle rectangle = new Rectangle(screenSize);
+			BufferedImage screenShot = robot.createScreenCapture(rectangle);
+			File fileName_2 = new File("Screenshot Using Robot Class.png");
+			ImageIO.write(screenShot, "png", fileName_2);
 		} catch (Exception e) {
 
 		}
+		
 		driver.quit();
 	}
 
