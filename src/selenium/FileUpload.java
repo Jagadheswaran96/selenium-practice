@@ -19,7 +19,7 @@ public class FileUpload {
 
 		WebDriverManager.chromedriver().setup();
 		WebDriver driver=new ChromeDriver();
-		//driver.manage().window().maximize();
+		driver.manage().window().maximize();
 		driver.get("https://krninformatix.com/sample.html");
 		driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
 		driver.findElement(By.id("brow")).click();

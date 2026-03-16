@@ -18,7 +18,7 @@ public class ResizeBrowser {
         driver.navigate().to("https://www.softwaretestingmaterial.com");
         System.out.println(driver.manage().window().getSize());
         //Create object of Dimensions class
-        Dimension d = new Dimension(480,620);
+        Dimension d = new Dimension(480, 620);
         //Resize the current window to the given dimension
         driver.manage().window().setSize(d);
         System.out.println(driver.manage().window().getSize());
