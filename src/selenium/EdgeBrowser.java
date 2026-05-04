@@ -20,12 +20,10 @@ public class EdgeBrowser {
 
 		WebDriverManager.edgedriver().setup();
 
-		//WebDriverManager.edgedriver().browserVersion("X.X.X").setup();
-
         EdgeOptions options = new EdgeOptions();
 
-        options.addArguments(
-            "user-data-dir=C:\\Users\\Jagadhez\\AppData\\Local\\Microsoft\\Edge\\User Data");
+//        options.addArguments(
+//            "user-data-dir=C:\\Users\\Jagadhez\\AppData\\Local\\Microsoft\\Edge\\User Data");
 
         //DesiredCapabilities capabilities = DesiredCapabilities.edge();
 
@@ -50,7 +48,9 @@ public class EdgeBrowser {
 
 		WebDriver driver = new EdgeDriver(options);
 
-		driver.get("https://carriercentral.amazon.com/");
+		driver.get("https://google.com/");
+		
+		driver.quit();
 	}
 
 }

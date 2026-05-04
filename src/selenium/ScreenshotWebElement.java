@@ -32,7 +32,7 @@ public class ScreenshotWebElement {
 
 		//Selenium Version 4 - POssible to take webelement screenshot
 		File elementScreenshot = title.getScreenshotAs(OutputType.FILE);
-		File file = new File("WebElement Screensho.png");
+		File file = new File("WebElement Screenshot.png");
 		FileUtils.copyFile(elementScreenshot, file);
 		driver.quit();
 

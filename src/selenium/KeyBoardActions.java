@@ -23,7 +23,7 @@ public class KeyBoardActions {
 			WebElement search = driver.findElement(By.name("q"));
 
 			// Enters text "qwerty" with keyDown SHIFT key and after keyUp SHIFT key (QWERTYqwerty)
-			action.keyUp(Keys.SHIFT).sendKeys(search,"qwerty").keyUp(Keys.SHIFT).sendKeys("qwerty").perform();
+			action.keyDown(Keys.SHIFT).sendKeys(search,"qwerty").keyUp(Keys.SHIFT).sendKeys("qwerty").perform();
 		} 	finally {
 			//driver.quit();
 		}
